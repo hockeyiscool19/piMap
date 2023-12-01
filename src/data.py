@@ -15,7 +15,7 @@ if __name__=="__main__":
     dataset2 = file2.read()
 
     print(dataset1.shape, dataset2.shape)
-    newFile = np.concatenate((dataset1, dataset2), axis=1)
+    newFile = np.concatenate((dataset2, dataset1), axis=1)
     print(newFile.shape)
     save("gis/map.npy", newFile)
     print("wrote to disk")
