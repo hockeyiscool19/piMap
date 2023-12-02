@@ -56,8 +56,6 @@ if __name__=="__main__":
 
 ```
 
-![Arkansas Valye](images/topology.png)
-
 ## Software building
 I implemented the gradient ascent model within a class in ```src/gradient.py```. Class objects hold the numpy array ```map```. I include a second function to loop through, running the ascent algorithm hundreds of times, where each run begins in a random location. I run the algorithm in this way, since it will often take many reruns and various paths to find the highest point. Here is a second topological map, where each black line represents a single ascent.
 
