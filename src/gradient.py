@@ -94,7 +94,7 @@ class Gradient:
         plt.xlim(center_x - half_side, center_x + half_side)
         plt.ylim(center_y - half_side, center_y + half_side)
         plt.gca().invert_yaxis()
-        plt.savefig("images/ascents.png")
+        plt.savefig("images/onePath.png")
         plt.show()
 
     def multiAscent(self, tries, stepSize):

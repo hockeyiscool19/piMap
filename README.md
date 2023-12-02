@@ -48,12 +48,15 @@ if __name__=="__main__":
     plt.savefig("images/topology.png")
     plt.show()
 ```
+
 ![Arkansas Valye](images/topology.png)
 
 ## Software building
 I implemented the gradient descent model within a class in ```src/gradient.py```. Class objects hold the numpy array ```map```. I include one method to run single gradient ascents, implementing the algorithm as was described above. I include a second function to loop through, running the ascent algorithm hundreds of times, where each run begins in a random location. I run the algorithm in this way, since it will often take many re-runs and various paths to find the hgihest point. Here is a second topological map, where each black line represents a single ascent. 
+
 ![Ascents](images/ascents.png)
+
 In the code, I take the longest path, just to visualize one such path taken by the algorithm, seeing its turns.
-![One Ascent](images/grad.png)
+![One Ascent](images/onePath.png)
 ## Resutls
-As you can see, this algorithm is far from perfect. Running it three
+As you can see, this algorithm is far from perfect. Notice that most black lines stop a long way from the highest elevation, seen in dark red. However, after 500 trials taking about 3 seconds to run, you will generally find a highest altitude around 14,000 feet -- not to bad! On this run in particular, the algorithm reached 14284.66 feet, a couple hundred feet high from the summit of Mount Elbert. 
