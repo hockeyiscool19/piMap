@@ -28,7 +28,9 @@ Gradient descent follows the same algorithm, but you move to the lowest point in
 
 ![Descent](images/descent.jpg)
 
-Mountains are complex, with many peaks and valleys, as shown in this image of Colorado mountains!
+Notice that this algorithm is garanteed to find the highest point if there exists exactly one "peak," one lowest point, and no other flat areas. (The terms peak and lowest point both imply a flat area.) 
+
+The Colorado mountains are complex, with many peaks and valleys, as shown in this image of Colorado mountains! Thus, the gradient ascent algorithm serves as an approximation. 
 
 ![Arkansas Valley](images/topology.png)
 
