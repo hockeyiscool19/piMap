@@ -8,7 +8,7 @@ In this project, I implement a deterministic gradient ascent model to find the t
 
 I chose this project for several reasons:
 
-1. I have found no place more breathtaking than Colorado's Arkansas Valley, ranging from Mt. Massive to the Collegiates of the Rocky Mountains. I mean that literally. Here is a photo of me skating on an outdoor rink in the shadow of Mt. Elbert, gasping for air. 
+1. I have found no place more breathtaking than Colorado's Arkansas Valley, ranging from Mt. Massive to the Collegiates of the Rocky Mountains. I mean that literally. Here is a photo I took while skating on an outdoor rink in the shadow of Mt. Elbert, gasping for air. 
 
   ![Hockey Image](images/hockey.jpg)
 
