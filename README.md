@@ -56,7 +56,7 @@ if __name__=="__main__":
 
 ```
 
-## Software building
+## The Algorithms
 I implemented the gradient ascent model within a class in ```src/gradient.py```. Class objects hold the numpy array ```map```. I include a second function to loop through, running the ascent algorithm hundreds of times, where each run begins in a random location. I run the algorithm in this way, since it will often take many reruns and various paths to find the highest point. Here is a second topological map, where each black line represents a single ascent.
 
 ![Ascents](images/ascents.png)
@@ -65,7 +65,7 @@ In the code, I take the longest path, just to visualize one such path taken by t
 
 ![One Ascent](images/onePath.png)
 
-# Resutls
+# Results
 As you can see, this algorithm is far from perfect. Notice that most black lines stop a long way from the highest elevation, seen in dark red. However, after 500 trials taking about 3 seconds to run, you will generally find a highest altitude around 14,000 feet — not too bad! On this run in particular, the algorithm reached 14284.66 feet, a couple hundred feet higher than the summit of Mount Elbert.
 
 # Conclusion
