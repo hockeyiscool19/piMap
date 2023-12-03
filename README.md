@@ -14,7 +14,7 @@ I chose this project for several reasons:
 
 2. I wanted to learn about GIS data. 
 
-3. In day-to-day coding, we rarely build algorithms from scratch, often relying on pre-made ones. I wanted to use my background as a math major to attempt writing an algorithm from scratch. I first encountered gradient descent in Calculus II at Davidson College, which sparked my enjoyment and understanding of math.
+3. In day-to-day coding, we rarely build algorithms from scratch, often relying on pre-made ones. I wanted to use my background as a math major to attempt to write an algorithm from scratch. I first encountered gradient descent in Calculus II at Davidson College, which sparked my enjoyment and understanding of math.
 
 4. I aim to provide an alternative to black-box machine learning models. People often opt for "machine learning" to optimize workflows. However, these models lack determinism and explainability. A mathematical optimization, such as gradient ascent/descent, is no black box. We can understand its outputs and their precision.
 
@@ -28,7 +28,7 @@ Gradient descent follows the same algorithm, but you move to the lowest point in
 
 ![Descent](images/descent.jpg)
 
-Notice that this algorithm is garanteed to find the highest point if there exists exactly one "peak," one lowest point, and no other flat areas. (The terms peak and lowest point both imply a flat area.) 
+Notice that this algorithm is guaranteed to find the highest point if there exists exactly one "peak," one lowest point, and no other flat areas. (The terms "peak" and "lowest point" both imply a flat area.) 
 
 The Colorado mountains are complex, with many peaks and valleys, as shown in this image of Colorado mountains! Thus, the gradient ascent algorithm serves as an approximation. 
 
@@ -72,6 +72,6 @@ As you can see, this algorithm is far from perfect. Notice that most black lines
 
 # Conclusion
 
-Mathematical modeling rarely gets much attention in industry. As a former math major, I have tears in my eyes when I see people looking to machine learning to solve all their problems. Inevitably, however, they reject machine learning solutions for two main reasons. ML models are 1) black boxes, and 2) output contradictions. Here I present one such alternative to machine learning based optimization. (In a sense, machine learning is nothin other than statistical optimization according to a loss function, but I digress.) 
+Mathematical modeling rarely gets much attention in industry. As a former math major, I have tears in my eyes when I see people looking to machine learning to solve all their problems. Inevitably, however, they reject machine learning solutions for two main reasons. ML models are 1) black boxes, and 2) output contradictions. Here I present one such alternative to machine learning-based optimization. (In a sense, machine learning is nothing other than statistical optimization according to a loss function, but I digress.) 
 
 In the process, I also hope to show what I am capable of as a problem solver, implementing techniques used in GIS applications, data visualization, and mathematical optimization. I hope you enjoy this repository.
